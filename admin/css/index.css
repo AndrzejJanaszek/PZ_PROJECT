@@ -1,0 +1,23 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+
+    border: 3px solid rgb(110, 21, 151);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+form > button{
+    width: min-content;
+    margin: 0 auto;
+    padding: 1ch;
+}

@@ -1,0 +1,17 @@
+:root{
+--primary_text--light: rgb(155, 155, 155);
+--primary_text--normal: rgb(85, 85, 85);
+--primary_text--dark: rgb(0, 0, 0);
+
+--orange_text--light: rgb(255, 189, 0);
+--orange_text--normal: rgb(255, 166, 0);
+--orange_text--dark: rgb(230, 122, 0);
+
+
+--blue_text--light: #1336aa;
+--blue_text--normal: #092480;
+--blue_text--dark: #000d38;
+
+
+--primary_bgc: #fff;
+}

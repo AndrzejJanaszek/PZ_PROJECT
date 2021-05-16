@@ -1,0 +1,47 @@
+.ourteam{
+    width: 100%;
+    min-height: 100vh;
+   /*  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center; */
+}
+.teammatebox{
+    font-size: 1.5rem;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+
+    width: 43ch;
+    box-shadow: .3rem .3rem 1rem rgba(0,0,0,.4),
+    -.3rem -.3rem 1rem rgba(255, 255, 255, 0.5);
+}
+.teammatebox__img{
+    margin-bottom: 1.5rem;
+    width: 90%;
+    box-shadow: .3rem .3rem 1rem rgba(0,0,0,.4),
+    -.3rem -.3rem 1rem rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+.teammatebox__description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.teammatebox__description > h3{
+    text-align: center;
+    font-size: 3rem;
+}
+.teammatebox__description__stanowisko{
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.teammatebox__description__contact{
+    color: var(--primary_text--light);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.teammatebox__description__contact__mail{
+
+}
+.teammatebox__description__contact__phone{
+
+}

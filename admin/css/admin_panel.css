@@ -1,0 +1,26 @@
+.admin_section{
+    width: 100%;
+    min-height: 100vh;
+}
+.category{
+
+}
+.category__name{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.category__options{
+    
+}
+.category__options__btn{
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(56, 124, 189);
+    border: none;
+    padding: 1ch;
+    color: #fff;
+}
+.backup_list{
+    margin-top: 3rem;
+}
